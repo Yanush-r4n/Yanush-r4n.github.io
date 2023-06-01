@@ -1,0 +1,84 @@
+body {
+    background-color: #120D31;
+}
+
+.container {
+    position: relative;
+    width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+
+    background-color: #E9FFF9;
+    box-shadow: 0 0 30px 30px #e9fff92e;
+    border-radius: 20px;
+}
+
+#my-drawing {
+    float: left;
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+}
+
+#name {
+    overflow: hidden;
+    font-size: 5em;
+    font-family: 'Bellota Text', cursive;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.info {
+    font-family: 'Bellota Text', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0;
+}
+
+#list-front {
+    font-size: 30px;
+    font-family: 'Bellota Text', cursive;
+    font-weight: 600;
+    text-align: center;
+}
+
+#list {
+    background-color: #264653;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+}
+
+.l-point {
+    color: #E9FFF9;
+    font-family: 'Bellota Text', cursive;
+    font-size: 25px;
+    padding: 2px;
+}
+
+.r-point {
+    color: #E9FFF9;
+    font-family: 'Bellota Text', cursive;
+    font-size: 25px;
+    padding-bottom: 25px;
+    text-align: right;
+    direction: rtl;
+}
+
+#end {
+    color: #E9FFF9;
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 50px;
+    text-shadow: 0 0 30px #e9fff9ba;
+    cursor: pointer;
+}
+
+#link {
+    color: #E9FFF9;
+    text-decoration: none;
+}
