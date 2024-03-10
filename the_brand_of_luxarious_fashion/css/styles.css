@@ -91,6 +91,24 @@
     opacity: 1;
 }
 
+.cart {
+    display: flex;
+}
+
+.cart-number {
+    width: 19px;
+    height: 19px;
+    background-color: #F16D7F;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+    transform: translate(-10px, -9px);
+}
+
 .header-body {
     background: #f1e4e6;
 }
