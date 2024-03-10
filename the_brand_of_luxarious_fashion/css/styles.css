@@ -110,12 +110,18 @@
 }
 
 .header-body {
-    background: #f1e4e6;
+    background-color: #f1e4e6;
 }
 
 .header-body__inner {
     display: flex;
     justify-content: space-between;
+}
+
+.header-body__img {
+    height: 764px;
+    width: 383px;
+    background-image: url('../img/banner/man.jpg');
 }
 
 .header-body__title {
